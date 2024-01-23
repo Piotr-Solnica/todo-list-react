@@ -7,7 +7,6 @@ const Buttons = (tasks, hideTasksDone) => (
             <>
                 <button className="buttons__button">
                     {hideTasksDone ? "Pokaż" : "Ukryj"} ukończone
-
                 </button>
                 <button
                     className="buttons__button"
@@ -16,10 +15,8 @@ const Buttons = (tasks, hideTasksDone) => (
                     Ukończ wszystkie
                 </button>
             </>
-
         )}
     </div>
-
 );
 
 
