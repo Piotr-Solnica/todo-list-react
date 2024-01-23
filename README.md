@@ -6,7 +6,7 @@ This repository includes simple tasks list created by me.
 
 [Tasks list]()
 
-![image](tasks-list.png)
+![image](public/images/tasks-list.png)
 
 ## Description
 
