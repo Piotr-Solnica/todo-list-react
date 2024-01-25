@@ -1,7 +1,6 @@
 import "./style.css";
 
-const Buttons = (tasks, hideTasksDone) => (
-
+const Buttons = ({tasks, hideTasksDone}) => (
     <div className="buttons">
         {tasks.length > 0 && (
             <>
@@ -18,8 +17,5 @@ const Buttons = (tasks, hideTasksDone) => (
         )}
     </div>
 );
-
-
-
 
 export default Buttons;
